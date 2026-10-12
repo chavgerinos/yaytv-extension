@@ -1,0 +1,48 @@
+/* 
+ * Use YouTube's own tokens where they resolve. Where they don't, the fallback is `inherit`
+ * so the row always matches the surrounding page text in both the light and the dark theme. 
+ * Secondary text is dimmed with opacity rather than a gray, for the same reason.
+ *
+ * --yt-spec-text-primary - Primary text color (black in light theme, white in dark)
+ * --yt-spec-text-secondary - Secondary text color (gray in light theme, light gray in dark)
+ */
+
+#yaytv-tags-row {
+  display: flex;
+  align-items: baseline;
+  margin-top: 12px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--yt-spec-text-primary, inherit);
+}
+
+#yaytv-tags-row .yaytv-label {
+  flex: 0 0 auto;
+  min-width: 120px;
+  padding-right: 5px;
+  color: var(--yt-spec-text-secondary, inherit);
+  opacity: 0.75;
+}
+
+#yaytv-tags-row .yaytv-tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4px;
+  min-width: 0;
+  color: inherit;
+}
+
+#yaytv-tags-row .yaytv-muted {
+  opacity: 0.75;
+}
+
+#yaytv-tags-row .yaytv-tag {
+  font-weight: 500;
+}
+
+#yaytv-tags-row .yaytv-tag:not(:last-child)::after {
+  content: ",";
+  font-weight: 400;
+  opacity: 0.75;
+}

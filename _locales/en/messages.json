@@ -1,0 +1,20 @@
+{
+   "appName": {
+      "message": "YAYTV - Yet Another YouTube Tags Viewer"
+   },
+   "appDesc": {
+      "message": "Shows the tags (keywords) of any YouTube video."
+   },
+   "rowTagsContentEmpty": {
+      "message": "The video has no tags"
+   },
+   "rowTagsContentError": {
+      "message": "Oops, something went wrong."
+   },
+   "rowTagsContentLoading": {
+      "message": "Loading..."
+   },
+   "rowTagsLabel": {
+      "message": "Tags"
+   }
+}

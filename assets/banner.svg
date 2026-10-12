@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="100" viewBox="0 0 640 100" role="img" aria-label="YAYTV — Yet Another YouTube Tags Viewer. Every video’s hidden tags, in plain sight.">
+  <style>
+    text { font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .title { font-size: 32px; font-weight: 700; fill: #f1f1f1; }
+    .acro { fill: #ff4e45; }
+    .slogan { font-size: 17px; font-weight: 400; fill: #aaaaaa; }
+  </style>
+
+  <!-- Own background, so the banner reads the same on GitHub's light and dark themes -->
+  <rect x="0.5" y="0.5" width="639" height="99" rx="14" fill="#0f0f0f" stroke="#303030"/>
+
+  <!-- Logo: vector copy of icons/icon128.png, scaled from 128 to 72 -->
+  <g transform="translate(20 14) scale(0.5625)">
+    <rect x="1" y="1" width="126" height="126" rx="24" fill="#cc0000"/>
+    <rect x="27" y="34" width="76" height="12" fill="#ffffff"/>
+    <rect x="27" y="59" width="60" height="12" fill="#ffffff"/>
+    <rect x="27" y="83" width="42" height="12" fill="#ffffff"/>
+  </g>
+
+  <!-- textLength pins the title width so it fits whichever system font renders it -->
+  <text class="title" x="112" y="47" textLength="503" lengthAdjust="spacing"><tspan class="acro">Y</tspan>et <tspan class="acro">A</tspan>nother <tspan class="acro">Y</tspan>ouTube <tspan class="acro">T</tspan>ags <tspan class="acro">V</tspan>iewer</text>
+  <text class="slogan" x="113" y="76">Every video’s hidden tags, in plain sight.</text>
+</svg>

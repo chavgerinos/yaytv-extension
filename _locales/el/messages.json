@@ -1,0 +1,20 @@
+{
+   "appName": {
+      "message": "YAYTV - Yet Another YouTube Tags Viewer"
+   },
+   "appDesc": {
+      "message": "Εμφανίζει τις ετικέτες (λέξεις-κλειδιά) οποιουδήποτε βίντεο στο YouTube."
+   },
+   "rowTagsContentEmpty": {
+      "message": "Το βίντεο δεν έχει ετικέτες"
+   },
+   "rowTagsContentError": {
+      "message": "Ουπς, κάτι πήγε στραβά."
+   },
+   "rowTagsContentLoading": {
+      "message": "Φόρτωση..."
+   },
+   "rowTagsLabel": {
+      "message": "Ετικέτες"
+   }
+}
